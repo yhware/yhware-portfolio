@@ -50,7 +50,7 @@ const ProjectDetailWrapper = styled.div`
 `;
 
 const PlayStoreIcon = () => (
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIf
+    <img alt="Play store icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIf
     AhkiAAAAAlwSFlzAAADmwAAA5sBPN8HMQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANTSURBVG
     iB7dpJiBxVGMDxyrjEBZXEBRcQBEEUJOohB0dzUdzBg0ZPBj1EJZfgxQXcwIMr6phRjAoGl0v05BAvYrwpaFyRGD1ISNCI
     o6AGo2R0fh7qa/t1p7u6urtmqgL5w0DXq++9/v7z6m01k2WHOIjAajyGE+rOZSTwEo6Jz3dgD9Ziou7chgLz2Ipj43ot/
@@ -111,10 +111,6 @@ const SpecialPointImgWrapper = styled.div`
 
 
 class ProjectDetailPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const {
             projectTitle = "", projectIntro = "", projectBuildProcess = "", projectFunc = [],
@@ -125,7 +121,7 @@ class ProjectDetailPage extends React.Component {
                 <ProjectPageWrapper>
                     <ProjectPicCarousel autoplay>
                         {
-                            carousel.map(img => (<img src={img}/>))
+                            carousel.map(img => (<img alt="carousel img" src={img}/>))
                         }
                     </ProjectPicCarousel>
                     <ProjectDetailWrapper>
@@ -179,7 +175,7 @@ class ProjectDetailPage extends React.Component {
                                     title={specialPointTitle}>
                                     {specialPointImg ?
                                         <SpecialPointImgWrapper>
-                                            <img src={specialPointImg}/>
+                                            <img alt="프로젝트 특이사항 이미지" src={specialPointImg}/>
                                         </SpecialPointImgWrapper> : ""
                                     }
 

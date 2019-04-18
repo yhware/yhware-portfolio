@@ -80,25 +80,25 @@ class App extends Component {
                                 exact
                                 key="internetcafe"
                                 path="/projects/internetcafe"
-                                render={props => <ProjectDetailPage {...Projects[0]} />}
+                                render={() => <ProjectDetailPage {...Projects[0]} />}
                             />
                             <Route
                                 exact
                                 key="fmsandroid"
                                 path="/projects/fmsandroid"
-                                render={props => <ProjectDetailPage {...Projects[1]} />}
+                                render={() => <ProjectDetailPage {...Projects[1]} />}
                             />
                             <Route
                                 exact
                                 key="fmsfront"
                                 path="/projects/fmsfront"
-                                render={props => <ProjectDetailPage {...Projects[2]} />}
+                                render={() => <ProjectDetailPage {...Projects[2]} />}
                             />
                             <Route
                                 exact
                                 key="portfolio"
                                 path="/projects/portfolio"
-                                render={props => <ProjectDetailPage {...Projects[3]} />}
+                                render={() => <ProjectDetailPage {...Projects[3]} />}
                             />
                         </Col>
                     </RowCust>

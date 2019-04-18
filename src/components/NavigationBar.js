@@ -56,7 +56,7 @@ const NavigationBar = () => {
             <LinkSection>
                 <LinkItem>
                     <LinkIcon type="github"/>
-                    <a href="https://github.com/yhware" target="_blank">
+                    <a href="https://github.com/yhware" rel="noopener noreferrer" target="_blank">
                         <LinkText>github.com/yhware</LinkText>
                     </a>
                 </LinkItem>
@@ -68,7 +68,7 @@ const NavigationBar = () => {
                 </LinkItem>
                 <LinkItem>
                     <LinkIcon type="linkedin"/>
-                    <a href="https://www.linkedin.com/in/yuhong-kim" target="_blank">
+                    <a href="https://www.linkedin.com/in/yuhong-kim" rel="noopener noreferrer" target="_blank">
                         <LinkText>linkedin.com/in/yuhong-kim</LinkText>
                     </a>
                 </LinkItem>

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
 
-
 const PStyle = styled.p`
   color: #FFF;
   font-weight: 300;
