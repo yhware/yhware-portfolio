@@ -22,7 +22,7 @@ const RowCust = styled(Row)`
   align-items: center;
 `;
 
-const StickyNavBar = styled(Col)`
+const StickyNavCol = styled(Col)`
   position: fixed;
     /* align-self: flex-start; */
     top: 0;
@@ -30,14 +30,6 @@ const StickyNavBar = styled(Col)`
 `;
 
 
-const NavBarOuterWrapper = styled.div`
-  height: 100vh;
-  background: #012963;
-  padding: 30px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
 
 class App extends Component {
     constructor(props) {
@@ -68,11 +60,9 @@ class App extends Component {
                             onHamburgerClickHandler={this.onHamburgerClick}
                             onMobileMenuClickHandler={this.onMobileMenuClick}
                         />
-                        <StickyNavBar xs={0} sm={0} md={7} lg={5} xl={4}>
-                            <NavBarOuterWrapper>
-                                <NavigationBar/>
-                            </NavBarOuterWrapper>
-                        </StickyNavBar>
+                        <StickyNavCol xs={0} sm={0} md={7} lg={5} xl={4}>
+                            <NavigationBar/>
+                        </StickyNavCol>
                         <Col
                             xs={{span: 24, offset: 0}}
                             sm={{span: 24, offset: 0}}

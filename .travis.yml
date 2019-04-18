@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - "stable"
+  - "10"
 cache:
   yarn: true
   directories:
     - node_modules
 script:
-  - npm run build
+  - yarn build
 #deploy:
 #  provider: pages
 #  skip_cleanup: true

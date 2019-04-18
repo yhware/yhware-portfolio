@@ -6,6 +6,7 @@ import P from "../elements/P";
 import SubTitle from "../elements/SubTitle";
 import {Button, Card, Carousel} from "antd";
 import BigTag from "../components/BigTag";
+import ProjectDetailBody from "../elements/ProjectDetailBody";
 
 /**
  * 프로젝트 개별 설명 페이지
@@ -14,6 +15,35 @@ import BigTag from "../components/BigTag";
 const ProjectPageWrapper = styled.div`
   min-height: 600px;
   background: #032b65;
+  // xs
+    @media (max-width: 575px) {  
+     padding: calc(70px + 10px) 0;
+    }
+    
+    // sm
+    @media (min-width: 576px) {  
+     padding: calc(70px + 10px) 0;
+    }
+     
+    // md
+    @media (min-width: 768px) {  
+     padding: 0;
+    }
+     
+    // lg
+    @media (min-width: 992px) { 
+        padding: 0 30px;
+    }
+     
+     // xl
+    @media (min-width: 1200px) {  
+        padding: 0 100px;
+    }
+     // xxl
+    @media (min-width: 1600px) {  
+        padding: 0 300px;
+    }
+  
 `;
 const ProjectDetailWrapper = styled.div`
   padding: 25px 25px;
@@ -79,6 +109,7 @@ const SpecialPointImgWrapper = styled.div`
   }
 `;
 
+
 class ProjectDetailPage extends React.Component {
     constructor(props) {
         super(props);
@@ -91,74 +122,72 @@ class ProjectDetailPage extends React.Component {
         } = this.props;
         return (
             <PageWrapper>
-                <div>
-                    <ProjectPageWrapper>
-                        <ProjectPicCarousel autoplay>
-                            {
-                                carousel.map(img => (<img src={img}/>))
-                            }
-                        </ProjectPicCarousel>
-                        <ProjectDetailWrapper>
-                            <SectionTitleText>{projectTitle}</SectionTitleText>
-                            <SubTitle>프로젝트 개요</SubTitle>
-                            <div>
-                                <P>{projectIntro}</P>
-                            </div>
+                <ProjectPageWrapper>
+                    <ProjectPicCarousel autoplay>
+                        {
+                            carousel.map(img => (<img src={img}/>))
+                        }
+                    </ProjectPicCarousel>
+                    <ProjectDetailWrapper>
+                        <SectionTitleText>{projectTitle}</SectionTitleText>
+                        <SubTitle>프로젝트 개요</SubTitle>
+                        <div>
+                            <P>{projectIntro}</P>
+                        </div>
 
-                            <SubTitle>프로젝트 기획</SubTitle>
-                            <P>{projectBuildProcess}</P>
-                            {
-                                projectFunc ? (
-                                    <div>
-                                        <SubTitle>프로젝트 기능</SubTitle>
-                                        <div style={{margin: "0 0 20px 0"}}>
-                                            {projectFunc.map(func => (<BigTag>{func}</BigTag>))}
-                                        </div>
+                        <SubTitle>프로젝트 기획</SubTitle>
+                        <P>{projectBuildProcess}</P>
+                        {
+                            projectFunc ? (
+                                <div>
+                                    <SubTitle>프로젝트 기능</SubTitle>
+                                    <div style={{margin: "0 0 20px 0"}}>
+                                        {projectFunc.map(func => (<BigTag>{func}</BigTag>))}
                                     </div>
-                                ) : ""
+                                </div>
+                            ) : ""
+                        }
+
+                        <div style={{margin: "0 0 20px 0"}}>
+                            {
+                                (githubLink || playStoreLink ? <SubTitle>프로젝트 관련 링크</SubTitle> : "")
                             }
 
-                            <div style={{margin: "0 0 20px 0"}}>
-                                {
-                                    (githubLink || playStoreLink ? <SubTitle>프로젝트 관련 링크</SubTitle> : "")
-                                }
-
-                                {
-                                    githubLink ?
-                                        <Button
-                                            type="primary"
-                                            icon="github"
-                                            size="large"
-                                            href="https://github.com/yhware/antidote-client"
-                                            target="_blank"
-                                        >Github에서 보기</Button> : ""
-                                }
-                                {
-                                    playStoreLink ?
-                                        <PlayStoreBtn type="primary" size="large" href={playStoreLink} target="_blank">
-                                            <PlayStoreIcon/> Play 스토어에서
-                                            보기</PlayStoreBtn> : ""
-                                }
-                            </div>
                             {
-                                projectSpecialPoints.length !== 0 ? <SubTitle>프로젝트 세부사항</SubTitle> : ""
+                                githubLink ?
+                                    <Button
+                                        type="primary"
+                                        icon="github"
+                                        size="large"
+                                        href="https://github.com/yhware/antidote-client"
+                                        target="_blank"
+                                    >Github에서 보기</Button> : ""
                             }
                             {
-                                projectSpecialPoints.map(({specialPointTitle, specialPointImg, specialPointBody}) => (
-                                    <ProjectDetailCard
-                                        title={specialPointTitle}>
-                                        {specialPointImg ?
-                                            <SpecialPointImgWrapper>
-                                                <img src={specialPointImg}/>
-                                            </SpecialPointImgWrapper> : ""
-                                        }
-
-                                        {specialPointBody}</ProjectDetailCard>
-                                ))
+                                playStoreLink ?
+                                    <PlayStoreBtn type="primary" size="large" href={playStoreLink} target="_blank">
+                                        <PlayStoreIcon/> Play 스토어에서
+                                        보기</PlayStoreBtn> : ""
                             }
-                        </ProjectDetailWrapper>
-                    </ProjectPageWrapper>
-                </div>
+                        </div>
+                        {
+                            projectSpecialPoints.length !== 0 ? <SubTitle>프로젝트 세부사항</SubTitle> : ""
+                        }
+                        {
+                            projectSpecialPoints.map(({specialPointTitle, specialPointImg, specialPointBody}) => (
+                                <ProjectDetailCard
+                                    title={specialPointTitle}>
+                                    {specialPointImg ?
+                                        <SpecialPointImgWrapper>
+                                            <img src={specialPointImg}/>
+                                        </SpecialPointImgWrapper> : ""
+                                    }
+
+                                    <ProjectDetailBody>{specialPointBody}</ProjectDetailBody></ProjectDetailCard>
+                            ))
+                        }
+                    </ProjectDetailWrapper>
+                </ProjectPageWrapper>
             </PageWrapper>
         )
     }

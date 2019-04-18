@@ -16,7 +16,7 @@ export default [
         ],
         projectTags: [""],
         projectIntro: `의무경찰 행정 대원으로 군 복무 중 공용PC사용에 문제가 있었습니다.
-                       선임 대원들이 장시간 사용으로 후임들의 사용 시간 부족,"
+                       선임 대원들이 장시간 사용으로 후임들의 사용 시간 부족,
                                             그리고 부주의한 사용으로 잦은 바이러스 감염이었습니다.
                                             해결책으로 PC방 관리프로그램이 필요했지만, 상용 소프트웨어는
                                             광고와 라이센싱 문제 때문에 사용이 힘들었습니다.
@@ -46,8 +46,7 @@ export default [
             },
             {
                 specialPointTitle: "프로세스 강제종료 보호",
-                specialPointBody: `
-                부대 내부에서만 사용할 것 이면 문제가 되지 않지만 다양한 부대로 배포될 것 이였기 때문에 보호할 필요가 있었습니다.
+                specialPointBody: `부대 내부에서만 사용할 것 이면 문제가 되지 않지만 다양한 부대로 배포될 것 이였기 때문에 보호할 필요가 있었습니다.
                             우선 프로그램 2개(dummy, shield)를 만들어 클라이언트와 같이 실행시켰습니다. shield가 클라이언트 프로세스를 지속
                             모니터링 하고 꺼질경우 dummy를 이용해 클라이언트를 재실행 시킵니다. dummy를 사용하는 이유는 프로세스 트리 강제종료를
                             막기위해 클라이언트와 shield간의 관계를 끊어주는겁니다.
@@ -55,66 +54,57 @@ export default [
                             작동되는 기법이지만 경찰청 공용PC모두 32bit 를 사용하기에 적합한 해결법이였습니다. ObRegisterCallbacks 메소드를
                             이용해 보다 안정적으로 64bit까지 대비 할 수 있었지만 값비싼 Microsoft Driver Signing Certificate가 필요했기에
                             적용하지 못했습니다. 결과적으로 SSDT Hooking을 이용한 Kernel Driver를 사용해 shield 프로세스를 숨겨
-                            프로그램을 보호 할 수 있었습니다.
-                `
+                            프로그램을 보호 할 수 있었습니다.`
             }
         ]
     },
     {
         projectTitle: "차량관제시스템(FMS) 안드로이드 앱",
         link: "/projects/fmsandroid",
-        projectDetail: "스카이오토넷 인턴 중 혼자 개발한 안드로이드 앱입니다. " +
-            "차량 실시간 위치, 운행기록, 단말(차량에 설치된)설정, " +
-            "차량예약 등 차량관제시스템 사용 고객사의 직원 및 관리자들이 모바일에 편하게 사용 할 수 있도록 고려하였습니다.",
-        projectIntro: `
-            차량관제시스템 안드로이드 앱입니다. 실시간 차량 위치보기, 운행이력 등 웹 버전의 기능을 대부분 내장하면서 사용자가 모바일에서 관심있을 만한 기능 위주로 개발하였습니다.
-        `,
+        projectDetail: `스카이오토넷 인턴 중 혼자 개발한 안드로이드 앱입니다.
+                        차량 실시간 위치, 운행기록, 단말(차량에 설치된)설정,
+                        차량예약 등 차량관제시스템 사용 고객사의 직원 및 관리자들이 모바일에 편하게 사용 할 수 있도록 고려하였습니다.`,
+        projectIntro: `차량관제시스템 안드로이드 앱입니다. 
+            실시간 차량 위치보기, 운행이력 등 웹 버전의 기능을 대부분 내장하면서 
+            사용자가 모바일에서 관심있을 만한 기능 위주로 개발하였습니다.`,
         projectImg: "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/fms-android/fms-android-title.png",
         carousel: [
             "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/fms-android/carousel-1.png",
             "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/fms-android/carousel-2.png",
             "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/fms-android/carousel-3.png",
         ],
-        projectBuildProcess: `
-            FMS 사용 고객사에서 데스트톱 웹으로 매번 접속해서 차량을 예약하고 현위치 파악하는게 업무에 지장을 준다는 피드백을 접수했습니다.
+        projectBuildProcess: `FMS 사용 고객사에서 데스트톱 웹으로 매번 접속해서 차량을 예약하고 현위치 파악하는게 업무에 지장을 준다는 피드백을 접수했습니다.
             이에 대응하고자 안드로이드 앱 개발에 착수하였지만 기획,디자인,개발 모두 저 혼자 해내야했기에 어려운 프로젝트였지만 그만큼 제 역량을 키울수 있었던 경험이였습니다.
             기존 스프링 서버는 JSP를 사용하였기에 REST API가 없었고 서버 수정을 통해 json을 기반으로 하는 API도 지원하게 서버를 수정하였습니다.
             지도 관련 기능은 다음지도API를 사용하여 지도표시와 GPS->주소변환 작업을 진행했습니다. 
-            Uber, Airbnb, 다음지도 앱 등을 참고해 사용자에게 친숙하고 편한 UX를 제공하였습니다.           
-        `,
+            Uber, Airbnb, 다음지도 앱 등을 참고해 사용자에게 친숙하고 편한 UX를 제공하였습니다.`,
         projectFunc: ["지도 위 차량 실시간 위치 표시", "차량 운행이력", "차량 예약", "차량에 부착된 단말기 설정조정"],
         playStoreLink: "https://play.google.com/store/apps/details?id=skynet.skyautonet.com.skynet",
         projectSpecialPoints: [
             {
                 specialPointTitle: "RxJava를 통한 Reactive Programming",
                 specialPointImg: "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/fms-android/code-rxjava.png",
-                specialPointBody: `
-                앱을 만들며 모든 Activity 들이 알아야할 이벤트나 API 서버에서 오는 정보를 공유해야하는 일이 많았습니다.
+                specialPointBody: `앱을 만들며 모든 Activity 들이 알아야할 이벤트나 API 서버에서 오는 정보를 공유해야하는 일이 많았습니다.
                 예로 설정 Activity에서 로그아웃을 할 경우 모든 Activity를 닫아야 했고 이를 전달할수 있어야 했습니다.
                 또한, API Request/Response가 비동기 방식이였기에 이를 처리하는데도 필요했습니다.
                 이 문제들을 해결하기 위해 RxJava의 PublishSubject을 Singleton 패턴으로 생성해 Activity들에서 Subscribe하였고 
-                이벤트 발생 시 Observer들에게 이벤트와 해당 데이터가 전달되었습니다.
-                `
+                이벤트 발생 시 Observer들에게 이벤트와 해당 데이터가 전달되었습니다.`
             },
             {
                 specialPointTitle: "REST API 지원 위해 기존 Spring 서버 수정",
                 specialPointImg: "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg",
                 specialPointBody:
-                    `
-                    안드로이드 앱 개발 전에는 백앤드 서버는 JSP만 지원하고 있었고 JSON 이나 XML 형태의 응답을 줄 수 있는
-                    API 기능이 없었습니다. 이를 개선하기 위해 API 엔드포인트들을 추가했고 인증을 JWT로 진행하였습니다.
-                `
+                    `안드로이드 앱 개발 전에는 백앤드 서버는 JSP만 지원하고 있었고 JSON 이나 XML 형태의 응답을 줄 수 있는
+                    API 기능이 없었습니다. 이를 개선하기 위해 API 엔드포인트들을 추가했고 인증을 JWT로 진행하였습니다.`
             },
             {
                 specialPointTitle: "Fabric을 통한 Crash 데이터 수집",
                 specialPointImg: "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/fms-android/fabric-icon.png",
                 specialPointBody:
-                    `
-                    많은 노력과 테스팅이 들어갔지만 안드로이드 생태계는 너무나도 환경이 다양하여 어디서 어떻게 문제가 발생할지 예상하기 힘듭니다.
+                    `많은 노력과 테스팅이 들어갔지만 안드로이드 생태계는 너무나도 환경이 다양하여 어디서 어떻게 문제가 발생할지 예상하기 힘듭니다.
                     그렇기에 Fabric 서비스를 이용해서 앱 Crash 데이터를 수집하였고 리포트에 Stack trace와 환경이 포함되어있어 디버깅에 큰 도움이 되었습니다.
                     또한 앱의 DAU 같은 기초적인 KPI는 물론 사용자가 어떤 기능을 자주 사용하는지도 수집하여 앱 기능 개선 우선 순위 
-                    설정에 큰 도움이 되었습니다.
-                `
+                    설정에 큰 도움이 되었습니다.`
             }
         ],
         usedTechs: ["java", "android"],

@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export default styled.div`
-
-
     // xs
     @media (max-width: 575px) {  
      padding: calc(70px + 10px) 10px;

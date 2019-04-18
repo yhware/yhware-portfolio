@@ -36,7 +36,7 @@ class SkillsPage extends React.Component {
                         <SkillBadge
                             skillName="C#"
                             imgUrl="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/skill-logo/c%23.png"
-                            tags={["PC방 프로젝트", "WPF", "초급"]}
+                            tags={["공용PC 관리프로그램", "WPF", "초급"]}
                         />
                         <SkillBadge
                             skillName="NodeJS"
@@ -71,12 +71,12 @@ class SkillsPage extends React.Component {
                         <SkillBadge
                             skillName="Flask"
                             imgUrl="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/skill-logo/flask.png"
-                            tags={["PC방 프로젝트", "REST API"]}
+                            tags={["공용PC 관리프로그램", "REST API"]}
                         />
                         <SkillBadge
                             skillName="WPF"
                             imgUrl="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/skill-logo/wpf.png"
-                            tags={["PC방 프로젝트", "초급"]}
+                            tags={["공용PC 관리프로그램", "초급"]}
                         />
                         <SkillBadge
                             skillName="AWS"
@@ -86,7 +86,7 @@ class SkillsPage extends React.Component {
                         <SkillBadge
                             skillName="PostgreSQL"
                             imgUrl="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/skill-logo/postgresql.png"
-                            tags={["주 RDBMS", "PC방 프로젝트"]}
+                            tags={["주 RDBMS", "공용PC 관리프로그램"]}
                         />
                         <SkillBadge
                             skillName="MySQL"
@@ -96,7 +96,7 @@ class SkillsPage extends React.Component {
                         <SkillBadge
                             skillName="Redis"
                             imgUrl="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/skill-logo/redis.png"
-                            tags={["PC방 프로젝트", "실시간 세션관리"]}
+                            tags={["공용PC 관리프로그램", "실시간 세션관리"]}
                         />
                         <SkillBadge
                             skillName="CentOS"
