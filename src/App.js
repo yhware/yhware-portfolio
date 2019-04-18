@@ -14,6 +14,8 @@ import styled from "styled-components";
 import NavigationBar from "./components/NavigationBar";
 import MobileNav from "./components/MobileNav";
 
+require('dotenv').config();
+
 const RowCust = styled(Row)`
   background: #021D44;
   min-height: 100vh;
