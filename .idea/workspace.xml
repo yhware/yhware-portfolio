@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfce21c7-3c1f-472e-a935-d54ab2d9ea6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/elements/ProjectDetailBody.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenericPageWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenericPageWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/P.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/P.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProjectDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectDetailPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SkillsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SkillsPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,9 +53,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="361">
                   <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -79,15 +66,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/ProjectDetailPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+                <state relative-caret-position="288">
+                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
                     <element signature="e#555#1967#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.travis.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -148,10 +143,7 @@
             <entry file="file://$PROJECT_DIR$/src/elements/P.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="190">
-                  <caret line="10" lean-forward="true" selection-end-line="18" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
+                  <caret line="10" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="18" />
                 </state>
               </provider>
             </entry>
@@ -161,9 +153,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="266">
                   <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -182,9 +171,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="152">
                   <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -192,8 +178,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/GenericPageWrapper.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="26" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+                <state relative-caret-position="513">
+                  <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -270,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/pages/SkillsPage.js" />
         <option value="$PROJECT_DIR$/src/components/SkillBadge.js" />
         <option value="$PROJECT_DIR$/src/components/MobileNav.js" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/NavigationBar.js" />
@@ -280,6 +265,7 @@
         <option value="$PROJECT_DIR$/src/components/GenericPageWrapper.js" />
         <option value="$PROJECT_DIR$/src/data/Projects.js" />
         <option value="$PROJECT_DIR$/src/pages/ProjectDetailPage.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -427,7 +413,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555230677225</updated>
       <workItem from="1555230679135" duration="2258000" />
-      <workItem from="1555232946304" duration="101203000" />
+      <workItem from="1555232946304" duration="101850000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555549961840</created>
@@ -443,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555550388665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- 불필요 CSS 주석 삭제&#10;- 메뉴바에 github, linkedin, email 링크 추가&#10;- 메뉴바 Component 이름을 StickyNavCol로 변경&#10;- 프로젝트 상세보기 페이지에서 Media Query 추가하여 Carousel이 Mobile 메뉴에 가려지는 현상 수정 + 큰 화면에서 카루셀 내부 이미지가 너무 zoom-in 된 상태로 보이지 않도록 page width padding 추가">
+      <created>1555568463710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555568463710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103461000" />
+    <option name="totallyTimeSpent" value="104108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +483,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Integrating Travis-ci but only testing the waters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrating Travis-ci but only testing the waters" />
+    <MESSAGE value="- 불필요 CSS 주석 삭제&#10;- 메뉴바에 github, linkedin, email 링크 추가&#10;- 메뉴바 Component 이름을 StickyNavCol로 변경&#10;- 프로젝트 상세보기 페이지에서 Media Query 추가하여 Carousel이 Mobile 메뉴에 가려지는 현상 수정 + 큰 화면에서 카루셀 내부 이미지가 너무 zoom-in 된 상태로 보이지 않도록 page width padding 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 불필요 CSS 주석 삭제&#10;- 메뉴바에 github, linkedin, email 링크 추가&#10;- 메뉴바 Component 이름을 StickyNavCol로 변경&#10;- 프로젝트 상세보기 페이지에서 Media Query 추가하여 Carousel이 Mobile 메뉴에 가려지는 현상 수정 + 큰 화면에서 카루셀 내부 이미지가 너무 zoom-in 된 상태로 보이지 않도록 page width padding 추가" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -744,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -793,19 +780,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/P.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <caret line="10" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -820,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,19 +830,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GenericPageWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="513">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ProjectDetailPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="288">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
             <element signature="e#555#1967#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
