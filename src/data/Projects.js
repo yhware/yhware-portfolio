@@ -150,15 +150,17 @@ export default [
         projectDetail: "제 개발 역량을 보여드리기 위한 웹사이트입니다. " +
             "React로 개발되었으며 용이한 관리를 위하여 Client-side로 렌더링되며 AWS S3에서 호스팅 됩니다." +
             "이전에는 Webpack, babel등 직접 설정하여 사용했지만 처음으로 create-react-app을 사용해봤습니다",
-        projectIntro: `
-            지금까지 제가 작업하였던 프로그램을 소개하는 웹사이트입니다.
-        `,
-        projectBuildProcess: `
-        제가 개발한 작품들을 보기 좋게 한곳에 모아 사이트를 만들어봤습니다.
+        projectIntro: `지금까지 제가 작업하였던 프로그램을 소개하는 웹사이트입니다.`,
+        githubLink: "https://github.com/yhware/yhware-portfolio",
+        travis: {
+            travisLink: "https://travis-ci.org/yhware/yhware-portfolio",
+            buildImg: "https://travis-ci.org/yhware/yhware-portfolio.svg?branch=master",
+        },
+        projectBuildProcess: `제가 개발한 작품들을 보기 좋게 한곳에 모아 사이트를 만들어봤습니다.
             AWS S3에 호스팅 되기에 Client-side 렌더링을 사용하였습니다.
-            또한, 소스를 Github에 공개하여 Travis CI와 연동하였으며 AWS CodeDeploy를 사용하여 Build 후 S3 버킷에 Deliver 됩니다.
-            이를 통해 수정사항이 있을 경우 보다 쉽게 사용할수 있도록 됬습니다. 
-        `,
+            또한, 소스를 Github에 공개하여 Travis CI와 연동하여 Build 후 S3 버킷에 Deploy가 됩니다.
+            Deploy 후 CloudFront를 통해 사용자에게 Deliver 됩니다 (커스텀 도메인 사용을 위해 CF를 사용하였습니다).
+            이를 통해 수정사항이 있을 경우 보다 쉽게 사용할수 있도록 됬습니다.`,
         usedTechs: ["react", "javascript", "aws"],
         projectFunc: null,
         projectImg: "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/portfolio-title.png",

@@ -109,12 +109,16 @@ const SpecialPointImgWrapper = styled.div`
   }
 `;
 
+const TravisBtn = styled.a`
+  margin: 0 10px;
+`;
+
 
 class ProjectDetailPage extends React.Component {
     render() {
         const {
             projectTitle = "", projectIntro = "", projectBuildProcess = "", projectFunc = [],
-            githubLink, playStoreLink, projectSpecialPoints = [], carousel = []
+            githubLink, playStoreLink, projectSpecialPoints = [], carousel = [], travis
         } = this.props;
         return (
             <PageWrapper>
@@ -146,7 +150,7 @@ class ProjectDetailPage extends React.Component {
 
                         <div style={{margin: "0 0 20px 0"}}>
                             {
-                                (githubLink || playStoreLink ? <SubTitle>프로젝트 관련 링크</SubTitle> : "")
+                                (githubLink || playStoreLink || travis ? <SubTitle>프로젝트 관련 링크</SubTitle> : "")
                             }
 
                             {
@@ -155,7 +159,7 @@ class ProjectDetailPage extends React.Component {
                                         type="primary"
                                         icon="github"
                                         size="large"
-                                        href="https://github.com/yhware/antidote-client"
+                                        href={githubLink}
                                         target="_blank"
                                     >Github에서 보기</Button> : ""
                             }
@@ -164,6 +168,11 @@ class ProjectDetailPage extends React.Component {
                                     <PlayStoreBtn type="primary" size="large" href={playStoreLink} target="_blank">
                                         <PlayStoreIcon/> Play 스토어에서
                                         보기</PlayStoreBtn> : ""
+                            }
+                            {
+                                travis ?
+                                    <TravisBtn href={travis.travisLink} rel="noopener noreferrer" target="_blank"><img
+                                        alt="travis build" src={travis.buildImg}/></TravisBtn> : ""
                             }
                         </div>
                         {
