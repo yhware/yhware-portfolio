@@ -32,7 +32,7 @@ const SkillName = styled.p`
 `;
 
 const TagWrapper = styled.div`
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
 `;
 

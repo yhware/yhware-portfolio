@@ -39,10 +39,9 @@ const LogoWrapper = styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     
+  display: flex;
+  justify-content: center;
+  align-items: center;     
 `;
 
 const MenuWrapper = styled.div`
@@ -70,9 +69,9 @@ const MenuItem = styled.div`
   color: #FFF;
   text-align: center;
   vertical-align: center;
-      display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 

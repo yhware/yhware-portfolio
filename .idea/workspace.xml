@@ -5,29 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfce21c7-3c1f-472e-a935-d54ab2d9ea6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-100.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-100.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-100.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-100.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-500.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/outdatedbrowser/lang/en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/outdatedbrowser/lang/ko.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/outdatedbrowser/outdated-browser-rework.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/outdatedbrowser/outdatedbrowser.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/P.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/P.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PageWrapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProjectDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectDetailPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MobileNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkillBadge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillBadge.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,56 +32,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6483586">
+    <splitter split-orientation="horizontal" split-proportion="0.5833333">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/ProjectsPage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/NavigationBar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+                <state relative-caret-position="190">
+                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/NavBarItem.js">
+            <entry file="file://$PROJECT_DIR$/src/components/CenteredPageWrapper.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+                <state relative-caret-position="133">
+                  <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.css">
+            <entry file="file://$PROJECT_DIR$/src/pages/SkillsPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="874">
-                  <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/android-chrome-512x512.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/android-chrome-192x192.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/ProjectCard.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="608">
-                  <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+                <state relative-caret-position="57">
+                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -96,8 +83,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/ProjectDetailPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="836">
-                  <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+                <state relative-caret-position="152">
+                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                     <element signature="e#1110#2544#0" />
@@ -107,10 +94,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/SkillBadge.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+                <state relative-caret-position="555">
+                  <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -122,8 +118,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/MobileNav.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+                <state relative-caret-position="209">
+                  <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -137,14 +133,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/elements/P.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="95">
                   <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -152,17 +145,23 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1316">
-                  <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+                <state relative-caret-position="228">
+                  <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="304">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -203,15 +202,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/manifest.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -240,12 +230,19 @@
       <find>service-wop</find>
       <find>This service</find>
       <find>index.css</find>
-      <find>start_url</find>
       <find>instal</find>
       <find>PROJECT_DIR</find>
       <find>PageWrapper</find>
       <find>Noto</find>
       <find>font-weight: 300</find>
+      <find>display: fle</find>
+      <find>display: flex</find>
+      <find>start_url</find>
+      <find>align-items</find>
+      <find>ms-f</find>
+      <find>flexbox-</find>
+      <find>webkit-fl</find>
+      <find>icon</find>
     </findStrings>
     <replaceStrings>
       <replace>공용PC 관리프로그램</replace>
@@ -257,7 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/texts/SectionTitle.js" />
         <option value="$PROJECT_DIR$/src/elements/H2.js" />
         <option value="$PROJECT_DIR$/src/buttons/IconBtn.js" />
         <option value="$PROJECT_DIR$/src/buttons/LandingPageMenuBtn.js" />
@@ -279,35 +275,36 @@
         <option value="$PROJECT_DIR$/src/elements/PageWrapper.js" />
         <option value="$PROJECT_DIR$/src/texts/NameText.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/pages/ProjectsPage.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectCard.js" />
-        <option value="$PROJECT_DIR$/src/components/CenteredPageWrapper.js" />
         <option value="$PROJECT_DIR$/src/pages/ProfilePage.js" />
         <option value="$PROJECT_DIR$/src/data/Menu.js" />
         <option value="$PROJECT_DIR$/src/pages/LandingPage.js" />
         <option value="$PROJECT_DIR$/src/hamburger.css" />
         <option value="$PROJECT_DIR$/src/components/NavBarItem.js" />
-        <option value="$PROJECT_DIR$/src/pages/SkillsPage.js" />
-        <option value="$PROJECT_DIR$/src/components/SkillBadge.js" />
-        <option value="$PROJECT_DIR$/src/components/MobileNav.js" />
         <option value="$PROJECT_DIR$/src/elements/ProjectDetailBody.js" />
         <option value="$PROJECT_DIR$/src/components/GenericPageWrapper.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/data/Projects.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/sw-build.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/sw-template.js" />
         <option value="$PROJECT_DIR$/src/serviceWorker.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/pages/ProjectDetailPage.js" />
-        <option value="$PROJECT_DIR$/src/components/NavigationBar.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/elements/P.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/SkillsPage.js" />
+        <option value="$PROJECT_DIR$/src/components/SkillBadge.js" />
+        <option value="$PROJECT_DIR$/src/pages/ProjectsPage.js" />
+        <option value="$PROJECT_DIR$/src/components/NavigationBar.js" />
+        <option value="$PROJECT_DIR$/src/components/CenteredPageWrapper.js" />
+        <option value="$PROJECT_DIR$/src/components/MobileNav.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/public/outdatedbrowser/outdatedbrowser.min.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -336,6 +333,19 @@
               <item name="yhware-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="yhware-portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yhware-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yhware-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="outdatedbrowser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yhware-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yhware-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="outdatedbrowser" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yhware-portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -403,13 +413,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\outdatedbrowser" />
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\icons" />
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\js" />
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\css" />
       <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\src" />
-      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\outdatedbrowser" />
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\outdatedbrowser\lang" />
+      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public" />
       <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\src\fonts" />
       <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\public\fonts" />
-      <recent name="C:\Users\daniel\WebstormProjects\yhware-portfolio\src\elements" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,7 +490,7 @@
       <workItem from="1555230679135" duration="2258000" />
       <workItem from="1555232946304" duration="105716000" />
       <workItem from="1555642684187" duration="730000" />
-      <workItem from="1555722531534" duration="7445000" />
+      <workItem from="1555722531534" duration="13753000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555549961840</created>
@@ -547,11 +562,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555727957430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- 600px height 이하에서는 Github 링크등을 숨기게 조치&#10;- Favicon 이미지 잘보이게 수정&#10;- 사용하지 않는 Component 삭제">
+      <created>1555747678767</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555747678767</updated>
+    </task>
+    <task id="LOCAL-00012" summary="- 600px height 이하에서는 Github 링크등을 숨기게 조치&#10;- Favicon 이미지 잘보이게 수정&#10;- 사용하지 않는 Component 삭제&#10;- Firefox에서 구글 웹폰트 사용할때 'font-variant' 속성 적용 버그가 있어 self-host로 변경">
+      <created>1555747858097</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555747858097</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116149000" />
+    <option name="totallyTimeSpent" value="122457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,6 +599,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.18201517" />
@@ -602,66 +632,14 @@
     <MESSAGE value="- 프로젝트 상세페이지 Travis 버튼 추가&#10;- 포트폴리오 프로젝트 정보 수정" />
     <MESSAGE value="- Google Analytics 추가" />
     <MESSAGE value="- Favicon, 웹사이트 Metadata, FB URL 프리뷰 내용 추가&#10;- ServiceWorker 활성화, Google Workbox 추가하여 Google Font async loading 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Favicon, 웹사이트 Metadata, FB URL 프리뷰 내용 추가&#10;- ServiceWorker 활성화, Google Workbox 추가하여 Google Font async loading 구현" />
+    <MESSAGE value="- 600px height 이하에서는 Github 링크등을 숨기게 조치&#10;- Favicon 이미지 잘보이게 수정" />
+    <MESSAGE value="- 600px height 이하에서는 Github 링크등을 숨기게 조치&#10;- Favicon 이미지 잘보이게 수정&#10;- 사용하지 않는 Component 삭제" />
+    <MESSAGE value="- 600px height 이하에서는 Github 링크등을 숨기게 조치&#10;- Favicon 이미지 잘보이게 수정&#10;- 사용하지 않는 Component 삭제&#10;- Firefox에서 구글 웹폰트 사용할때 'font-variant' 속성 적용 버그가 있어 self-host로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 600px height 이하에서는 Github 링크등을 숨기게 조치&#10;- Favicon 이미지 잘보이게 수정&#10;- 사용하지 않는 Component 삭제&#10;- Firefox에서 구글 웹폰트 사용할때 'font-variant' 속성 적용 버그가 있어 self-host로 변경" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/TechImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/H4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-router/esm/react-router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="452" lean-forward="true" selection-start-line="452" selection-end-line="452" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/material-icons-react/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/texts/HighlightText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TechBadgeSm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/texts/SelfIntroBlock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -692,34 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SkillBadge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SkillsPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CenteredPageWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,16 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ProjectsPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,13 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="154" column="17" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1316">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -829,13 +766,6 @@
     <entry file="file://$PROJECT_DIR$/public/browserconfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sw-build.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -860,15 +790,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/safari-pinned-tab.svg">
+    <entry file="file://$PROJECT_DIR$/public/icons/safari-pinned-tab.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw-template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/PageWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -894,19 +817,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/icons/android-chrome-192x192.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavigationBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/icons/android-chrome-512x512.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/icons/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBarItem.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -915,40 +833,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MobileNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/P.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ProjectDetailPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#1110#2544#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/fonts/noto-sans-kr-v11-korean_latin-100.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectCard.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -957,21 +843,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/elements/P.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/android-chrome-512x512.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/pages/SkillsPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/android-chrome-192x192.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/components/SkillBadge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ProjectsPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavigationBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CenteredPageWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MobileNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ProjectDetailPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#1110#2544#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/outdatedbrowser/lang/en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/outdatedbrowser/lang/ko.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/outdatedbrowser/outdatedbrowser.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/outdatedbrowser/outdatedbrowser.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#251#258#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/outdatedbrowser/outdated-browser-rework.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/outdatedbrowser/outdatedbrowser.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
