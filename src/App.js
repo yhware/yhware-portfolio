@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
-import ReactGA from 'react-ga';
 import './hamburger.css';
 import "antd/dist/antd.css";
 import './App.css';
@@ -15,9 +14,6 @@ import styled from "styled-components";
 import NavigationBar from "./components/NavigationBar";
 import MobileNav from "./components/MobileNav";
 
-require('dotenv').config();
-ReactGA.initialize('UA-138357697-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const RowCust = styled(Row)`
   background: #021D44;
