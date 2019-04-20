@@ -1,5 +1,4 @@
 import React from 'react';
-import PageWrapper from "../elements/PageWrapper";
 import styled from 'styled-components';
 import SectionTitleText from "../texts/SectionTitleText";
 import P from "../elements/P";
@@ -121,7 +120,7 @@ class ProjectDetailPage extends React.Component {
             githubLink, playStoreLink, projectSpecialPoints = [], carousel = [], travis
         } = this.props;
         return (
-            <PageWrapper>
+            <div>
                 <ProjectPageWrapper>
                     <ProjectPicCarousel autoplay>
                         {
@@ -193,7 +192,7 @@ class ProjectDetailPage extends React.Component {
                         }
                     </ProjectDetailWrapper>
                 </ProjectPageWrapper>
-            </PageWrapper>
+            </div>
         )
     }
 }

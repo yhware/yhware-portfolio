@@ -21,6 +21,11 @@ const LinkSection = styled.div`
   max-height: 400px;
   width: 100%;
   padding: 0 0 10px 0;
+  
+  @media (max-height: 600px){
+    display: none;
+  }
+  
 `;
 
 const LinkItem = styled.div`

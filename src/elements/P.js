@@ -3,7 +3,7 @@ import React from 'react';
 
 const PStyle = styled.p`
   color: #FFF;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.7em;
   line-height: 1.7em;
 `;
