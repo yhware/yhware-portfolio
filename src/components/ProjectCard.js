@@ -9,8 +9,26 @@ const {Meta} = Card;
 
 const CardWrapper = styled(Card)`
   min-width: 200px;
-  max-width: 320px;
   margin: 10px 5px;
+  
+    // md
+    @media (min-width: 768px) {  
+      width: 250px;
+    }
+     
+    // lg
+    @media (min-width: 992px) { 
+      width: 290px;
+    }
+     
+     // xl
+    @media (min-width: 1200px) {  
+      width: 290px;
+    }
+     // xl
+    @media (min-width: 1700px) {  
+      width: 340px;
+    }
 `;
 
 const TechStackWrapper = styled.div`
@@ -18,7 +36,7 @@ const TechStackWrapper = styled.div`
 `;
 
 const CustMeta = styled(Meta)`
-  height: 140px;
+  min-height: 140px;
 `;
 
 

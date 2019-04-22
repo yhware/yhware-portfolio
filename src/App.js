@@ -53,7 +53,7 @@ class App extends Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
                 <Switch>
                     <RowCust>
                         <MobileNav

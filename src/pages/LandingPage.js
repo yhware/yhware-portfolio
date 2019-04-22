@@ -3,6 +3,7 @@ import NameText from "../texts/NameText";
 import styled from "styled-components";
 import LandingPageText from "../texts/LandingPageText";
 import CenteredPageWrapper from "../components/CenteredPageWrapper";
+import {Link} from "react-router-dom";
 
 
 const PDFText = styled.p`
@@ -39,6 +40,19 @@ const CompanyLogoBox = styled.div`
 
 const CompanyLogoImg = styled.img`
   max-width: 120px;
+`;
+
+const GoToProjectsBtn = styled.button`
+    min-width: 300px;
+    width: 100%;
+    height: 50px;
+    background: #ff3e55;
+    border: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #FFF;
+    margin: 15px 0;
+    outline: none;
 `;
 
 
@@ -79,6 +93,7 @@ class LandingPage extends React.Component {
                         </LandingPageText>
                     </div>
                     <PDFText onClick={() => alert("준비중입니다!")}>PDF로 보기 ></PDFText>
+                    <Link to="/projects"><GoToProjectsBtn>프로젝트 보러가기</GoToProjectsBtn></Link>
                 </div>
             </CenteredPageWrapper>
         )
