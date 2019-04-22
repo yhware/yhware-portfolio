@@ -8,6 +8,9 @@ const SkillsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   
+    @media (max-width: 576px) { 
+      justify-content: space-around;
+    }
 `;
 
 class SkillsPage extends React.Component {
@@ -101,7 +104,7 @@ class SkillsPage extends React.Component {
                         <SkillBadge
                             skillName="CentOS"
                             imgUrl="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/skill-logo/centos.png"
-                            tags={["프로덕션 서비스 세팅가능", "초급"]}
+                            tags={["프로덕션 경험", "초급"]}
                         />
                         <SkillBadge
                             skillName="Nginx"
