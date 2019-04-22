@@ -15,6 +15,30 @@ const PDFText = styled.p`
   &:hover{
     color: rgba(255,62,85,0.8);
   }
+  
+  
+  @media (max-width: 576px) {  
+    display: none;
+  }
+`;
+
+const PostNameText = styled.span`
+    display: block;
+    font-size: 1.8em;
+    font-weight: 800;
+    text-align: right;
+    margin: 10px 10px 0 0;
+    color: #fff;
+`;
+
+const CompanyLogoBox = styled.div`
+  display: flex;
+  justify-content: space-between;
+  
+`;
+
+const CompanyLogoImg = styled.img`
+  max-width: 120px;
 `;
 
 
@@ -25,10 +49,30 @@ class LandingPage extends React.Component {
             <CenteredPageWrapper>
                 <div>
                     <LandingPageText>안녕하세요,</LandingPageText>
-                    <div style={{margin: '20px 0 25px 0'}}>
-                        <NameText>김유홍</NameText><LandingPageText>이라고 합니다</LandingPageText>
+                    <div style={{margin: '20px 0 0 0'}}>
+                        <NameText>김유홍</NameText><PostNameText>이라고 합니다</PostNameText>
                     </div>
                     <div>
+                        <CompanyLogoBox>
+                            <a href="https://microsoft.com" target="_blank" rel="noopener noreferrer">
+                                <CompanyLogoImg
+                                    alt="microsoft logo"
+                                    src="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/company-logo/ms_logo.png"
+                                />
+                            </a>
+                            <a href="https://www.samsungsds.com" target="_blank" rel="noopener noreferrer">
+                                <CompanyLogoImg
+                                    alt="samsung sds logo"
+                                    src="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/company-logo/samsung_logo.png"
+                                />
+                            </a>
+                            <a href="https://accenture.com" target="_blank" rel="noopener noreferrer">
+                                <CompanyLogoImg
+                                    alt="accenture logo"
+                                    src="https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/company-logo/accenture_logo.png"
+                                />
+                            </a>
+                        </CompanyLogoBox>
                         <LandingPageText>
                             Microsoft, 삼성SDS, Accenture 인턴쉽을 거치며 <br/>
                             만드는 상품의 핵심 가치를 파악할줄 아는 개발자입니다.
