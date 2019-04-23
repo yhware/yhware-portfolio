@@ -16,17 +16,16 @@ export default [
         ],
         projectTags: [""],
         projectIntro: `의무경찰 행정 대원으로 군 복무 중 공용PC사용에 문제가 있었습니다.
-                       선임 대원들이 장시간 사용으로 후임들의 사용 시간 부족,
-                                            그리고 부주의한 사용으로 잦은 바이러스 감염이었습니다.
-                                            해결책으로 PC방 관리프로그램이 필요했지만, 상용 소프트웨어는
-                                            광고와 라이센싱 문제 때문에 사용이 힘들었습니다.
-                                            이를 해결하기 위해 직접 프로그램을 만들게 되었습니다.`,
+                       선후임 대원간 사용 시간 불균형과 잦은 바이러스 감염이었습니다.
+                        해결책으로 PC방 관리프로그램이 필요했지만, 
+                        상용 소프트웨어는 광고와 라이센싱 문제 때문에 사용이 힘들었습니다.
+                        이를 해결하기 위해 직접 프로그램을 만들게 되었습니다.`,
         projectBuildProcess: `첫 기획은 서버 없는 로컬 클라이언트로 사용 시간 제한만 하는 것이였습니다.
-                                       하지만 경찰서 IT담당자와 논의 후 서울 내 모든 의경 부대가 사용할 수 있게 설계를 변경하였습니다.
-                                       총 6가지 프로그램입니다: 클라이언트, 업데이터, 프로세스 보호기
-                                     API 서버, WebSocket 서버, 관리자 웹사이트.
-                                      클라이언트는 C#, WPF를 사용하였고 서버는 Python Flask, Tornado(WebSocket)를 사용했습니다.
-                                      관리자 웹사이트는 React.js를 사용했습니다.`,
+                               하지만 경찰서 IT담당자와 논의 후 서울 내 모든 의경 부대가 사용할 수 있게 설계를 변경하여
+                               총 6가지 프로그램으로 제작했습니다: 클라이언트, 업데이터, 프로세스 보호기
+                                API 서버, WebSocket 서버, 관리자 웹사이트.
+                              클라이언트는 WPF를 사용하였고 서버는 Python Flask, Tornado(WebSocket)를 사용했습니다.
+                              관리자 웹사이트는 React.js와 Redux 를 사용했습니다.`,
         projectFunc: ["사용자 회원가입/로그인", "실시간 사용 프로그램 모니터링", "프로세스 강제종료 보호",
             "NSIS 설치 패키지", "세션 시간 단축/연장", "그룹 정책(사용시간, 공지사항)"],
         githubLink: "https://github.com/yhware/antidote-client",
@@ -46,15 +45,16 @@ export default [
             },
             {
                 specialPointTitle: "프로세스 강제종료 보호",
+                specialPointImg: "https://s3.ap-northeast-2.amazonaws.com/yhware-portfolio/portfolio-pics/internet-cafe/detail-2.png",
                 specialPointBody: `부대 내부에서만 사용할 것 이면 문제가 되지 않지만 다양한 부대로 배포될 것 이였기 때문에 보호할 필요가 있었습니다.
-                            우선 프로그램 2개(dummy, shield)를 만들어 클라이언트와 같이 실행시켰습니다. shield가 클라이언트 프로세스를 지속
-                            모니터링 하고 꺼질경우 dummy를 이용해 클라이언트를 재실행 시킵니다. dummy를 사용하는 이유는 프로세스 트리 강제종료를
-                            막기위해 클라이언트와 shield간의 관계를 끊어주는겁니다.
-                            하지만 또한 우회 방법이 많았기에 근본적인 해결법인 SSDT Hooking을 도입했습니다. 이는 32bit 컴퓨터에서만
-                            작동되는 기법이지만 경찰청 공용PC모두 32bit 를 사용하기에 적합한 해결법이였습니다. ObRegisterCallbacks 메소드를
-                            이용해 보다 안정적으로 64bit까지 대비 할 수 있었지만 값비싼 Microsoft Driver Signing Certificate가 필요했기에
-                            적용하지 못했습니다. 결과적으로 SSDT Hooking을 이용한 Kernel Driver를 사용해 shield 프로세스를 숨겨
-                            프로그램을 보호 할 수 있었습니다.`
+                            우선 프로그램 2개(dummy, shield)를 만들어 클라이언트와 같이 실행시켰습니다. 
+                            Shield가 클라이언트 프로세스를 지속 모니터링 하고 꺼질경우 dummy를 이용해 클라이언트를 재실행 시킵니다. 
+                            Dummy를 사용하는 이유는 프로세스 트리 강제종료를 막기위해 클라이언트와 shield간의 관계를 끊어주는겁니다.
+                            하지만 이 또한 우회 방법이 많았기에 근본적인 해결법인 SSDT Hooking을 도입했습니다. 
+                            이는 32bit 컴퓨터에서만 작동되는 기법이지만 경찰청 공용PC모두 32bit 를 사용하기에 적합한 해결법이였습니다. 
+                            ObRegisterCallbacks 메소드를 이용해 보다 안정적으로 64bit까지 대비 할 수 있었지만 값비싼 Microsoft Driver Signing Certificate가 필요했기에
+                            적용하지 못했습니다. 
+                            결과적으로 SSDT Hooking을 이용한 Kernel Driver를 사용해 shield 프로세스를 숨겨 프로그램을 보호 할 수 있었습니다.`
             }
         ]
     },
